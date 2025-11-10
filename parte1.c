@@ -33,7 +33,7 @@ int main() {
 
    // Fecha o arquivo
    if (close(fd) < 0) {
-       perror("Erro ao fechar o arquivo");
+       perror("Erro ao fechar o arquerivo");
        exit(EXIT_FAILURE);
    }
 
